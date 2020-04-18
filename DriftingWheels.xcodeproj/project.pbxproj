@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AB205942440CDE700076E1A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB205932440CDE700076E1A /* MapView.swift */; };
+		4AB205962440CE9E00076E1A /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB205952440CE9E00076E1A /* ServerManager.swift */; };
 		4AC1DF2B243F8EE9002FE6A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1DF2A243F8EE9002FE6A5 /* AppDelegate.swift */; };
 		4AC1DF2D243F8EE9002FE6A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1DF2C243F8EE9002FE6A5 /* SceneDelegate.swift */; };
 		4AC1DF2F243F8EE9002FE6A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1DF2E243F8EE9002FE6A5 /* ContentView.swift */; };
 		4AC1DF31243F8EF5002FE6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC1DF30243F8EF5002FE6A5 /* Assets.xcassets */; };
 		4AC1DF34243F8EF5002FE6A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC1DF33243F8EF5002FE6A5 /* Preview Assets.xcassets */; };
 		4AC1DF37243F8EF5002FE6A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC1DF35243F8EF5002FE6A5 /* LaunchScreen.storyboard */; };
+		4AC1DF40243F9325002FE6A5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC1DF3F243F9325002FE6A5 /* MapKit.framework */; };
+		4AF9C06A24423227003DCDE1 /* DeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C06924423227003DCDE1 /* DeviceList.swift */; };
+		4AF9C06C244243C7003DCDE1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9C06B244243C7003DCDE1 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AB205932440CDE700076E1A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4AB205952440CE9E00076E1A /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		4AC1DF27243F8EE9002FE6A5 /* DriftingWheels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriftingWheels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC1DF2A243F8EE9002FE6A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AC1DF2C243F8EE9002FE6A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		4AC1DF33243F8EF5002FE6A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AC1DF36243F8EF5002FE6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AC1DF38243F8EF5002FE6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC1DF3F243F9325002FE6A5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4AF9C06924423227003DCDE1 /* DeviceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceList.swift; sourceTree = "<group>"; };
+		4AF9C06B244243C7003DCDE1 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC1DF40243F9325002FE6A5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,7 @@
 			children = (
 				4AC1DF29243F8EE9002FE6A5 /* DriftingWheels */,
 				4AC1DF28243F8EE9002FE6A5 /* Products */,
+				4AC1DF3E243F9325002FE6A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +75,10 @@
 				4AC1DF35243F8EF5002FE6A5 /* LaunchScreen.storyboard */,
 				4AC1DF38243F8EF5002FE6A5 /* Info.plist */,
 				4AC1DF32243F8EF5002FE6A5 /* Preview Content */,
+				4AB205932440CDE700076E1A /* MapView.swift */,
+				4AB205952440CE9E00076E1A /* ServerManager.swift */,
+				4AF9C06924423227003DCDE1 /* DeviceList.swift */,
+				4AF9C06B244243C7003DCDE1 /* Device.swift */,
 			);
 			path = DriftingWheels;
 			sourceTree = "<group>";
@@ -73,6 +89,14 @@
 				4AC1DF33243F8EF5002FE6A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AC1DF3E243F9325002FE6A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AC1DF3F243F9325002FE6A5 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB205962440CE9E00076E1A /* ServerManager.swift in Sources */,
 				4AC1DF2B243F8EE9002FE6A5 /* AppDelegate.swift in Sources */,
+				4AB205942440CDE700076E1A /* MapView.swift in Sources */,
+				4AF9C06A24423227003DCDE1 /* DeviceList.swift in Sources */,
 				4AC1DF2D243F8EE9002FE6A5 /* SceneDelegate.swift in Sources */,
+				4AF9C06C244243C7003DCDE1 /* Device.swift in Sources */,
 				4AC1DF2F243F8EE9002FE6A5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +317,7 @@
 				DEVELOPMENT_TEAM = P33F9ZDJEG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DriftingWheels/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +338,7 @@
 				DEVELOPMENT_TEAM = P33F9ZDJEG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DriftingWheels/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
