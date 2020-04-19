@@ -7,11 +7,8 @@
 //
 
 import Foundation
-
-
-//import CoreLocation
 import CoreData
-//import UIKit
+
 
 // ein Protokoll um den jeweils aktiven ViewController zu akzualisieren
 protocol DeviceListDelegate: class {
